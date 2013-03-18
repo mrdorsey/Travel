@@ -9,11 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @class MRDViewController;
+@class MRDMapViewController;
+@class MRDTableViewController;
 
-@interface MRDAppDelegate : UIResponder <UIApplicationDelegate>
+@interface MRDAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) MRDViewController *viewController;
+@property (strong, nonatomic) UITabBarController *tabBarController;
+@property (strong, nonatomic) MRDMapViewController *mapViewController;
+@property (strong, nonatomic) MRDTableViewController *tableViewController;
 
 @end

@@ -8,20 +8,22 @@
 
 #import "MRDAppDelegate.h"
 
-#import "MRDViewController.h"
+#import "MRDMapViewController.h"
+#import "MRDTableViewController.h"
 
 @implementation MRDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-	if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-	    self.viewController = [[MRDViewController alloc] initWithNibName:@"MRDViewController_iPhone" bundle:nil];
-	} else {
-	    self.viewController = [[MRDViewController alloc] initWithNibName:@"MRDViewController_iPad" bundle:nil];
-	}
-	self.window.rootViewController = self.viewController;
+	
+	self.mapViewController = [[MRDMapViewController alloc] initWithNibName:@"MRDMapViewController" bundle:nil];
+	self.tableViewController = [[MRDTableViewController alloc] initWithNibName:@"MRDTableViewController" bundle:nil];
+	
+	self.tabBarController = [[UITabBarController alloc] init];
+	self.tabBarController.viewControllers = @[[[UINavigationController alloc] initWithRootViewController:self.mapViewController], [[UINavigationController alloc] initWithRootViewController:self.tableViewController]];
+	
+	self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45412BEA16ED9E770018757D /* MRDMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45412BE816ED9E770018757D /* MRDMapViewController.m */; };
+		45412BEB16ED9E770018757D /* MRDMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45412BE916ED9E770018757D /* MRDMapViewController.xib */; };
+		45412BEF16ED9E930018757D /* MRDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45412BED16ED9E930018757D /* MRDTableViewController.m */; };
+		45412BF016ED9E930018757D /* MRDTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45412BEE16ED9E930018757D /* MRDTableViewController.xib */; };
+		45412BF216EDA9300018757D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45412BF116EDA9300018757D /* CoreLocation.framework */; };
+		45412BF416EDA93D0018757D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45412BF316EDA93D0018757D /* MapKit.framework */; };
+		45441AA016EEB9070095F7AE /* MRDTrip.m in Sources */ = {isa = PBXBuildFile; fileRef = 45441A9F16EEB9070095F7AE /* MRDTrip.m */; };
+		45441AA316EEB9A40095F7AE /* MRDTripManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45441AA216EEB9A40095F7AE /* MRDTripManager.m */; };
 		454F4CCC16EC44E0000E1141 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454F4CCB16EC44E0000E1141 /* UIKit.framework */; };
 		454F4CCE16EC44E0000E1141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454F4CCD16EC44E0000E1141 /* Foundation.framework */; };
 		454F4CD016EC44E0000E1141 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454F4CCF16EC44E0000E1141 /* CoreGraphics.framework */; };
@@ -16,14 +24,15 @@
 		454F4CDE16EC44E0000E1141 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 454F4CDD16EC44E0000E1141 /* Default.png */; };
 		454F4CE016EC44E0000E1141 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 454F4CDF16EC44E0000E1141 /* Default@2x.png */; };
 		454F4CE216EC44E0000E1141 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 454F4CE116EC44E0000E1141 /* Default-568h@2x.png */; };
-		454F4CE516EC44E0000E1141 /* MRDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454F4CE416EC44E0000E1141 /* MRDViewController.m */; };
-		454F4CE816EC44E0000E1141 /* MRDViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454F4CE616EC44E0000E1141 /* MRDViewController_iPhone.xib */; };
-		454F4CEB16EC44E0000E1141 /* MRDViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454F4CE916EC44E0000E1141 /* MRDViewController_iPad.xib */; };
 		454F4CF316EC44E0000E1141 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454F4CF216EC44E0000E1141 /* SenTestingKit.framework */; };
 		454F4CF416EC44E0000E1141 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454F4CCB16EC44E0000E1141 /* UIKit.framework */; };
 		454F4CF516EC44E0000E1141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454F4CCD16EC44E0000E1141 /* Foundation.framework */; };
 		454F4CFD16EC44E0000E1141 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 454F4CFB16EC44E0000E1141 /* InfoPlist.strings */; };
 		454F4D0016EC44E0000E1141 /* TravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454F4CFF16EC44E0000E1141 /* TravelTests.m */; };
+		4566952216F6D21300546B61 /* MRDLocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4566952116F6D21300546B61 /* MRDLocationAnnotation.m */; };
+		4566952516F6D37300546B61 /* CLLocation+MRDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4566952416F6D37300546B61 /* CLLocation+MRDExtensions.m */; };
+		4566952A16F6DCD900546B61 /* MRDTripDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4566952816F6DCD900546B61 /* MRDTripDetailViewController.m */; };
+		4566952B16F6DCD900546B61 /* MRDTripDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4566952916F6DCD900546B61 /* MRDTripDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45412BE716ED9E770018757D /* MRDMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDMapViewController.h; sourceTree = "<group>"; };
+		45412BE816ED9E770018757D /* MRDMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDMapViewController.m; sourceTree = "<group>"; };
+		45412BE916ED9E770018757D /* MRDMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRDMapViewController.xib; sourceTree = "<group>"; };
+		45412BEC16ED9E920018757D /* MRDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDTableViewController.h; sourceTree = "<group>"; };
+		45412BED16ED9E930018757D /* MRDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDTableViewController.m; sourceTree = "<group>"; };
+		45412BEE16ED9E930018757D /* MRDTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRDTableViewController.xib; sourceTree = "<group>"; };
+		45412BF116EDA9300018757D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		45412BF316EDA93D0018757D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		45441A9E16EEB9070095F7AE /* MRDTrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDTrip.h; sourceTree = "<group>"; };
+		45441A9F16EEB9070095F7AE /* MRDTrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDTrip.m; sourceTree = "<group>"; };
+		45441AA116EEB9A40095F7AE /* MRDTripManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDTripManager.h; sourceTree = "<group>"; };
+		45441AA216EEB9A40095F7AE /* MRDTripManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDTripManager.m; sourceTree = "<group>"; };
 		454F4CC816EC44E0000E1141 /* Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		454F4CCB16EC44E0000E1141 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		454F4CCD16EC44E0000E1141 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,16 +71,19 @@
 		454F4CDD16EC44E0000E1141 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		454F4CDF16EC44E0000E1141 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		454F4CE116EC44E0000E1141 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		454F4CE316EC44E0000E1141 /* MRDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRDViewController.h; sourceTree = "<group>"; };
-		454F4CE416EC44E0000E1141 /* MRDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRDViewController.m; sourceTree = "<group>"; };
-		454F4CE716EC44E0000E1141 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDViewController_iPhone.xib; sourceTree = "<group>"; };
-		454F4CEA16EC44E0000E1141 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDViewController_iPad.xib; sourceTree = "<group>"; };
 		454F4CF116EC44E0000E1141 /* TravelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		454F4CF216EC44E0000E1141 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		454F4CFA16EC44E0000E1141 /* TravelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravelTests-Info.plist"; sourceTree = "<group>"; };
 		454F4CFC16EC44E0000E1141 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		454F4CFE16EC44E0000E1141 /* TravelTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravelTests.h; sourceTree = "<group>"; };
 		454F4CFF16EC44E0000E1141 /* TravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelTests.m; sourceTree = "<group>"; };
+		4566952016F6D21300546B61 /* MRDLocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDLocationAnnotation.h; sourceTree = "<group>"; };
+		4566952116F6D21300546B61 /* MRDLocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDLocationAnnotation.m; sourceTree = "<group>"; };
+		4566952316F6D37300546B61 /* CLLocation+MRDExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+MRDExtensions.h"; sourceTree = "<group>"; };
+		4566952416F6D37300546B61 /* CLLocation+MRDExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+MRDExtensions.m"; sourceTree = "<group>"; };
+		4566952716F6DCD900546B61 /* MRDTripDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDTripDetailViewController.h; sourceTree = "<group>"; };
+		4566952816F6DCD900546B61 /* MRDTripDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDTripDetailViewController.m; sourceTree = "<group>"; };
+		4566952916F6DCD900546B61 /* MRDTripDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRDTripDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45412BF416EDA93D0018757D /* MapKit.framework in Frameworks */,
+				45412BF216EDA9300018757D /* CoreLocation.framework in Frameworks */,
 				454F4CCC16EC44E0000E1141 /* UIKit.framework in Frameworks */,
 				454F4CCE16EC44E0000E1141 /* Foundation.framework in Frameworks */,
 				454F4CD016EC44E0000E1141 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +115,8 @@
 		454F4CBF16EC44E0000E1141 = {
 			isa = PBXGroup;
 			children = (
+				45412BF316EDA93D0018757D /* MapKit.framework */,
+				45412BF116EDA9300018757D /* CoreLocation.framework */,
 				454F4CD116EC44E0000E1141 /* Travel */,
 				454F4CF816EC44E0000E1141 /* TravelTests */,
 				454F4CCA16EC44E0000E1141 /* Frameworks */,
@@ -119,12 +147,13 @@
 		454F4CD116EC44E0000E1141 /* Travel */ = {
 			isa = PBXGroup;
 			children = (
+				4566951F16F6CAC800546B61 /* Model */,
+				4566951E16F6CAB600546B61 /* View Controllers */,
 				454F4CDA16EC44E0000E1141 /* MRDAppDelegate.h */,
 				454F4CDB16EC44E0000E1141 /* MRDAppDelegate.m */,
-				454F4CE316EC44E0000E1141 /* MRDViewController.h */,
-				454F4CE416EC44E0000E1141 /* MRDViewController.m */,
-				454F4CE616EC44E0000E1141 /* MRDViewController_iPhone.xib */,
-				454F4CE916EC44E0000E1141 /* MRDViewController_iPad.xib */,
+				4566952016F6D21300546B61 /* MRDLocationAnnotation.h */,
+				4566952116F6D21300546B61 /* MRDLocationAnnotation.m */,
+				4566952616F6D78900546B61 /* Extensions */,
 				454F4CD216EC44E0000E1141 /* Supporting Files */,
 			);
 			path = Travel;
@@ -161,6 +190,42 @@
 				454F4CFB16EC44E0000E1141 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4566951E16F6CAB600546B61 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45412BE716ED9E770018757D /* MRDMapViewController.h */,
+				45412BE816ED9E770018757D /* MRDMapViewController.m */,
+				45412BE916ED9E770018757D /* MRDMapViewController.xib */,
+				45412BEC16ED9E920018757D /* MRDTableViewController.h */,
+				45412BED16ED9E930018757D /* MRDTableViewController.m */,
+				45412BEE16ED9E930018757D /* MRDTableViewController.xib */,
+				4566952716F6DCD900546B61 /* MRDTripDetailViewController.h */,
+				4566952816F6DCD900546B61 /* MRDTripDetailViewController.m */,
+				4566952916F6DCD900546B61 /* MRDTripDetailViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4566951F16F6CAC800546B61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45441A9E16EEB9070095F7AE /* MRDTrip.h */,
+				45441A9F16EEB9070095F7AE /* MRDTrip.m */,
+				45441AA116EEB9A40095F7AE /* MRDTripManager.h */,
+				45441AA216EEB9A40095F7AE /* MRDTripManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4566952616F6D78900546B61 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4566952316F6D37300546B61 /* CLLocation+MRDExtensions.h */,
+				4566952416F6D37300546B61 /* CLLocation+MRDExtensions.m */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +304,9 @@
 				454F4CDE16EC44E0000E1141 /* Default.png in Resources */,
 				454F4CE016EC44E0000E1141 /* Default@2x.png in Resources */,
 				454F4CE216EC44E0000E1141 /* Default-568h@2x.png in Resources */,
-				454F4CE816EC44E0000E1141 /* MRDViewController_iPhone.xib in Resources */,
-				454F4CEB16EC44E0000E1141 /* MRDViewController_iPad.xib in Resources */,
+				45412BEB16ED9E770018757D /* MRDMapViewController.xib in Resources */,
+				45412BF016ED9E930018757D /* MRDTableViewController.xib in Resources */,
+				4566952B16F6DCD900546B61 /* MRDTripDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +343,13 @@
 			files = (
 				454F4CD816EC44E0000E1141 /* main.m in Sources */,
 				454F4CDC16EC44E0000E1141 /* MRDAppDelegate.m in Sources */,
-				454F4CE516EC44E0000E1141 /* MRDViewController.m in Sources */,
+				45412BEA16ED9E770018757D /* MRDMapViewController.m in Sources */,
+				45412BEF16ED9E930018757D /* MRDTableViewController.m in Sources */,
+				45441AA016EEB9070095F7AE /* MRDTrip.m in Sources */,
+				45441AA316EEB9A40095F7AE /* MRDTripManager.m in Sources */,
+				4566952216F6D21300546B61 /* MRDLocationAnnotation.m in Sources */,
+				4566952516F6D37300546B61 /* CLLocation+MRDExtensions.m in Sources */,
+				4566952A16F6DCD900546B61 /* MRDTripDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,22 +378,6 @@
 				454F4CD516EC44E0000E1141 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		454F4CE616EC44E0000E1141 /* MRDViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				454F4CE716EC44E0000E1141 /* en */,
-			);
-			name = MRDViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		454F4CE916EC44E0000E1141 /* MRDViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				454F4CEA16EC44E0000E1141 /* en */,
-			);
-			name = MRDViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		454F4CFB16EC44E0000E1141 /* InfoPlist.strings */ = {
@@ -468,6 +524,7 @@
 				454F4D0516EC44E0000E1141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		454F4D0616EC44E0000E1141 /* Build configuration list for PBXNativeTarget "TravelTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +533,7 @@
 				454F4D0816EC44E0000E1141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
